@@ -1,5 +1,3 @@
-import './style.css';
-
 import contentsChange from './functions/contentsChange';
 
 import home from './problem/home';
