@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup --force"
+    "deploy": "npm run build; git add dist/; git commit -m 'deploy'; git push; push-dir --dir=dist --branch=gh-pages --force"
   },
   "devDependencies": {
     "push-dir": "^0.4.1",
