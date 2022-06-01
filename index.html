@@ -1,13 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <header>
+      <h1><a href="/">JavaScript Problems</a></h1>
+    </header>
+    <nav>
+      <ul>
+        <li class="nav-item">
+          <span>DOM</span>
+          <ul>
+            <li><a href="#dom-test">問題 1</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <span>Algorithm</span>
+          <ul>
+            <li><a href="#">問題 1</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <span>Object</span>
+          <ul>
+            <li><a href="#">問題 1</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <span>Array</span>
+          <ul>
+            <li><a href="#">問題 1</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <main id="content"></main>
+    <footer>
+      <p>
+        Copyright &copy; 2022
+        <a href="https://click.ecc.ac.jp/ecc/rokazaki/" target="_blank"
+          >OkazakiRui</a
+        >
+      </p>
+    </footer>
+    <script type="module" src="src/main.js"></script>
   </body>
 </html>
