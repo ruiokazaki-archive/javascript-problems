@@ -21,4 +21,4 @@ document.getElementById("display") // param
 </pre>
 `;
 
-export default stapwatch</h2>;
+export default stapwatch;
