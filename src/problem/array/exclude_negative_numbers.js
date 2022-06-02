@@ -14,11 +14,11 @@ const exclude_negative_numbers = `
 <h3>入出力例</h3>
 <pre>
 <code>
-[1, 2, -3] // input
-[1, 2] // output
+[1, 2, -3] // param
+[1, 2] // return
 
-[1, 2, -3, 4, -5, 10] // input
-[1, 2, 4, 10] // output
+[1, 2, -3, 4, -5, 10] // param
+[1, 2, 4, 10] // return
 </code>
 </pre>
 `;

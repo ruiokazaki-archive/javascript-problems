@@ -14,11 +14,11 @@ const reverse_array = `
 <h3>入出力例</h3>
 <pre>
 <code>
-[1, 2, 3] // input
-[3, 2, 1] // output
+[1, 2, 3] // param
+[3, 2, 1] // return
 
-[1, 2, 3, 4, 5, 10] // input
-[10, 5, 4, 3, 2, 1] // output
+[1, 2, 3, 4, 5, 10] // param
+[10, 5, 4, 3, 2, 1] // return
 </code>
 </pre>
 `;

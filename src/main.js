@@ -1,10 +1,12 @@
 import contentsChange from './functions/contentsChange';
 
 import array from './problem/array';
+import dom from './problem/dom';
 import navCategoryGenerator from './functions/navItemTemplate';
 
 const problems = {
   array,
+  dom,
 };
 
 const contentElement = document.getElementById('content');

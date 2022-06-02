@@ -14,11 +14,11 @@ const maximum_product_of_three_numbers = `
 <h3>入出力例</h3>
 <pre>
 <code>
-[1, 2, 3] // input
-6 // output
+[1, 2, 3] // param
+6 // return
 
-[1, 2, 3, 4, 5, 10] // input
-200 // output
+[1, 2, 3, 4, 5, 10] // param
+200 // return
 </code>
 </pre>
 `;
